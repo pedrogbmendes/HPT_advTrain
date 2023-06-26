@@ -21,7 +21,7 @@ To train the models, you can directly run the `python3 train.py` specifying the 
   --preTrain: whether the model should be saved/loaded, choices=[0,1,2] (0 trains from the beginning, 1 trains from the beginning and saves it (used just for ST), 2 loads the ST model if exists and performs AT)
 ```
 
-The datasets should be in a directory called `../data`.
+The benchmarks should be in a directory called `../data`.
 To parallelize and automatize the deployment and speed up the training, you can also run   `python3 run.py`. In this file, you can directly specify all the arguments to run the train.py file, and the script will deploy in a sequential (1 worker) or parallel way (several workers) the training process.
 Do not forget to install pytorch.
 
