@@ -1,4 +1,4 @@
-This directory `optimizers` contains the code used to implement taKG, BO-EI, and Random Search. These were implemented based on the (BoTorch library)[https://botorch.org/]. On the other hand, HB was implemented based on the implementations found in public repositories of [BOHB](https://github.com/automl/HpBandSter) and [HyperJump](https://github.com/pedrogbmendes/HyperJump).
+This directory `optimizers` contains the code used to implement taKG, BO-EI, and Random Search. These were implemented based on the [BoTorch library](https://botorch.org/). On the other hand, HB was implemented based on the implementations found in public repositories of [BOHB](https://github.com/automl/HpBandSter) and [HyperJump](https://github.com/pedrogbmendes/HyperJump).
 
 
 You can run these scripts but selecting the model/dataset in the header of the file (argument called network). 
