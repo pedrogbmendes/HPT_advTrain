@@ -3,6 +3,9 @@
 
 This repository contains the scripts and data used and collected in our study entitled [Hyper-parameter Tuning for Adversarially Robust Models](https://arxiv.org/pdf/2304.02497.pdf).
 
+
+## Train directory 
+
 **The directory `train` contains the scripts and information to deploy the training of models.**
 
 To train the models, you can directly run the `python3 train.py` specifying the correct arguments:
@@ -36,12 +39,13 @@ These scripts were used to train a given model using a specific benchmark using 
 
 
 
+## Optimizers directory 
 
 **The directory `optimizers` contains the code to implement the hyper-parameter tuning optimizers** compared in this work (namely, taKG, HB, BO-EI, and Random Search).
 
 This directory `optimizers` contains the code used to implement taKG, BO-EI, and Random Search, to evaluate the gains that stem from using an additional dimension. These were implemented based on the [BoTorch library](https://botorch.org/). On the other hand, HB was implemented based on the implementations found in public repositories of [BOHB](https://github.com/automl/HpBandSter) and [HyperJump](https://github.com/pedrogbmendes/HyperJump).
 
-## How to reproduce the results in the paper:
+### How to reproduce the results in the paper:
 
 To reproduce the results in the paper (comparison of different HPT strategies), you need to directly run the following scripts:
 
@@ -63,6 +67,7 @@ You need to install botorch, pytorch, and ConfigSpace libraries using pip3 (e.g.
 
 
 
+## Datasets directory 
 
 **The directory `datasets` contains the data collected in our study.** We are making this data publicly accessible in the hope that it will aid the design of future HPT methods specialized for Adversarial Training. 
 This directory contains the data collected for our study entitled [**Hyper-parameter Tuning for Adversarially Robust Models**](https://arxiv.org/abs/2304.02497)
