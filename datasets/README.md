@@ -1,8 +1,8 @@
-This directory constains the data collected for our study entiteled [**Hyper-parameter Tuning for Adversarially Robust Models**](https://arxiv.org/abs/2304.02497)
+This directory contains the data collected for our study entitled [**Hyper-parameter Tuning for Adversarially Robust Models**](https://arxiv.org/abs/2304.02497)
 The files can also be downloaded from this [link](https://drive.google.com/drive/folders/1qV_fiJA_JzEin-SscksE0tlC5Adt187X?usp=sharing). 
-(The file containing the data of CNN Cifar10 was to big to be uploaded to this repository, so you need to download it from the link above).
+(The file containing the data of CNN Cifar10 was too big to be uploaded to this repository, so you need to download it from the link above).
 
-Each csv file contains the following fields:
+Each CSV file contains the following fields:
 ```
   alg: method to generate the perturbation when performing adversarial training or standard training
   epochs: epoch number
