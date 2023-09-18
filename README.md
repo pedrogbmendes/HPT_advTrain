@@ -70,7 +70,7 @@ You need to install botorch, pytorch, and ConfigSpace libraries using pip3 (e.g.
 ## [Datasets directory](https://github.com/pedrogbmendes/HPT_advTrain/tree/main/datasets)  
 
 **The [directory `datasets`](https://github.com/pedrogbmendes/HPT_advTrain/tree/main/datasets)  contains the data collected in our study.** We are making this data publicly accessible in the hope that it will aid the design of future HPT methods specialized for Adversarial Training. 
-This directory contains the data collected for our study entitled [**Hyper-parameter Tuning for Adversarially Robust Models**](https://arxiv.org/abs/2304.02497)
+This directory contains the data collected for our study entitled **Hyper-parameter Tuning for Adversarially Robust Models**.
 The files can also be downloaded from this [link](https://drive.google.com/drive/folders/1qV_fiJA_JzEin-SscksE0tlC5Adt187X?usp=sharing). 
 (The file containing the data of CNN Cifar10 was too big to be uploaded to this repository, so you need to download it from the link above).
 
