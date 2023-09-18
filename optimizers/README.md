@@ -14,7 +14,7 @@ To reproduce the results in the paper (comparison of different HPT strategies), 
 
 
 You can select the model/dataset in the header of the file (argument called network). 
-These scripts do not deploy the training in real-time (the training procedure data is read from a file saved on [dataset](https://github.com/pedrogbmendes/HPT_advTrain/tree/anonymize/datasets/).
+These scripts do not deploy the training in real-time (the training procedure data is read from a file saved on [dataset](https://github.com/pedrogbmendes/HPT_advTrain/tree/anonymize/datasets/README.md).
 To run taKG, you also need to select the budgets/fidelities to use. You have 3 options:
 ```
 budget_option = 0: both budgets - number of epochs and PGD iteration
