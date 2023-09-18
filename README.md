@@ -4,9 +4,9 @@
 This repository contains the scripts and data used and collected in our study entitled Hyper-parameter Tuning for Adversarially Robust Models. 
 
 
-##  [Train directory](https://github.com/pedrogbmendes/HPT_advTrain/tree/main/train)
+##  [Train directory](https://github.com/pedrogbmendes/HPT_advTrain/tree/anonymize/train)
 
-**The [directory `train`](https://github.com/pedrogbmendes/HPT_advTrain/tree/main/train)  contains the scripts and information to deploy the training of models.**
+**The [directory `train`](https://github.com/pedrogbmendes/HPT_advTrain/tree/anonymize/train)  contains the scripts and information to deploy the training of models.**
 
 To train the models, you can directly run the `python3 train.py` specifying the correct arguments:
 ```
@@ -39,9 +39,9 @@ These scripts were used to train a given model using a specific benchmark using 
 
 
 
-## [Optimizers directory](https://github.com/pedrogbmendes/HPT_advTrain/tree/main/optimizers)  
+## [Optimizers directory](https://github.com/pedrogbmendes/HPT_advTrain/tree/anonymize/optimizers)  
 
-**The [directory `optimizers`](https://github.com/pedrogbmendes/HPT_advTrain/tree/main/optimizers) contains the code to implement the hyper-parameter tuning optimizers** compared in this work (namely, taKG, HB, BO-EI, and Random Search).
+**The [directory `optimizers`](https://github.com/pedrogbmendes/HPT_advTrain/tree/anonymize/optimizers) contains the code to implement the hyper-parameter tuning optimizers** compared in this work (namely, taKG, HB, BO-EI, and Random Search).
 
 This directory `optimizers` contains the code used to implement taKG, BO-EI, and Random Search, to evaluate the gains that stem from using an additional dimension. These were implemented based on the [BoTorch library](https://botorch.org/). On the other hand, HB was implemented based on the implementations found in public repositories of [BOHB](https://github.com/automl/HpBandSter) and [HyperJump](https://github.com/pedrogbmendes/HyperJump).
 
@@ -55,7 +55,7 @@ To reproduce the results in the paper (comparison of different HPT strategies), 
 4) HyperBand: HB is based on the  [BOHB](https://github.com/automl/HpBandSter) and [HyperJump](https://github.com/pedrogbmendes/HyperJump), which contain and independent repository. To be able to run HB, you need to define the function to optimize (i.e., the model to train and the hyper-parameters).
 
 You can select the model/dataset in the header of the file (argument called network). 
-These scripts do not deploy the training in real-time (the training procedure data is read from a file saved on [dataset](https://github.com/pedrogbmendes/HPT_advTrain/tree/main/datasets).
+These scripts do not deploy the training in real-time (the training procedure data is read from a file saved on [dataset](https://github.com/pedrogbmendes/HPT_advTrain/tree/anonymize/datasets).
 To run taKG, you also need to select the budgets/fidelities to use. You have 3 options:
 ```
 budget_option = 0: both budgets - number of epochs and PGD iteration
@@ -67,9 +67,9 @@ You need to install botorch, pytorch, and ConfigSpace libraries using pip3 (e.g.
 
 
 
-## [Datasets directory](https://github.com/pedrogbmendes/HPT_advTrain/tree/main/datasets)  
+## [Datasets directory](https://github.com/pedrogbmendes/HPT_advTrain/tree/anonymize/datasets)  
 
-**The [directory `datasets`](https://github.com/pedrogbmendes/HPT_advTrain/tree/main/datasets)  contains the data collected in our study.** We are making this data publicly accessible in the hope that it will aid the design of future HPT methods specialized for Adversarial Training. 
+**The [directory `datasets`](https://github.com/pedrogbmendes/HPT_advTrain/tree/anonymize/datasets)  contains the data collected in our study.** We are making this data publicly accessible in the hope that it will aid the design of future HPT methods specialized for Adversarial Training. 
 This directory contains the data collected for our study entitled **Hyper-parameter Tuning for Adversarially Robust Models**.
 The files can also be downloaded from this [link](https://drive.google.com/drive/folders/1qV_fiJA_JzEin-SscksE0tlC5Adt187X?usp=sharing). 
 (The file containing the data of CNN Cifar10 was too big to be uploaded to this repository, so you need to download it from the link above).
