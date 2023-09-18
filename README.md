@@ -3,7 +3,7 @@
 
 This repository contains the scripts and data used and collected in our study entitled Hyper-parameter Tuning for Adversarially Robust Models. 
 
-**Due to the anonymization of this repo, some of the links to directories of this repo might not work.**
+**Due to the anonymization of this repository, some of the links (to directories of this repository) might not work.**
 
 
 ##  [Train directory](https://github.com/pedrogbmendes/HPT_advTrain/tree/anonymize/train)
