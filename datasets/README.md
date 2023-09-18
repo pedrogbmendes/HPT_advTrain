@@ -1,4 +1,4 @@
-This directory contains the data collected for our study entitled [**Hyper-parameter Tuning for Adversarially Robust Models**](https://arxiv.org/abs/2304.02497)
+This directory contains the data collected for our study entitled **Hyper-parameter Tuning for Adversarially Robust Models**.
 The files can also be downloaded from this [link](https://drive.google.com/drive/folders/1qV_fiJA_JzEin-SscksE0tlC5Adt187X?usp=sharing). 
 (The file containing the data of CNN Cifar10 was too big to be uploaded to this repository, so you need to download it from the link above).
 
