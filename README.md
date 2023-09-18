@@ -1,7 +1,7 @@
 # Hyper-parameter Tuning for Adversarially Robust Models
 
 
-This repository contains the scripts and data used and collected in our study entitled [Hyper-parameter Tuning for Adversarially Robust Models](https://arxiv.org/pdf/2304.02497.pdf) ([Pedro Mendes](https://web.tecnico.ulisboa.pt/~pedrogoncalomendes/), [Paolo Romano](https://www.dpss.inesc-id.pt/~romanop/), [David Garlan](https://www.cs.cmu.edu/~garlan/)). 
+This repository contains the scripts and data used and collected in our study entitled Hyper-parameter Tuning for Adversarially Robust Models. 
 
 
 ##  [Train directory](https://github.com/pedrogbmendes/HPT_advTrain/tree/main/train)
@@ -98,17 +98,4 @@ Each CSV file contains the following fields:
   trainingTime: training time
   testingTime: standard testing time
   adversarialTestingTime: adversarial testing time
-```
-
-
-## Citation
-```
-@misc{mendes2023hyperparameter,
-      title={Hyper-parameter Tuning for Adversarially Robust Models}, 
-      author={Pedro Mendes and Paolo Romano and David Garlan},
-      year={2023},
-      eprint={2304.02497},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
 ```
