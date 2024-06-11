@@ -103,12 +103,10 @@ Each CSV file contains the following fields:
 
 ## Citation
 ```
-@misc{mendes2023hyperparameter,
-      title={Hyper-parameter Tuning for Adversarially Robust Models}, 
-      author={Pedro Mendes and Paolo Romano and David Garlan},
-      year={2023},
-      eprint={2304.02497},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{mendes2024hptAT,
+  title={Hyper-parameter Tuning for Adversarially Robust Models}, 
+  author={Pedro Mendes and Paolo Romano and David Garlan},
+  booktitle = {The IJCAI-2024 AISafety Workshop},
+  year      = {2024},
 }
 ```
